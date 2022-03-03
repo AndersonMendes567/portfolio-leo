@@ -1,0 +1,71 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header, footer {
+    background-color: #353942;
+}
+
+section {
+    margin: 30px 0;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.icon {
+    width: 16px;
+    margin-right: 5px;
+}
+
+body #portfolio .container {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.row-card {
+    gap: 15px;
+}
+
+.col-card {
+    padding: 0;
+}
+
+.icon-top {
+    font-size: 30px;
+}
+
+#contact form textarea {
+    height: 150px;
+    max-height: 400px;
+}
+
+a.btn-topo {
+    display: none;
+    position: fixed;
+    color: #343A40;
+    bottom: 60px;
+    right: 15px;
+    background-color: white;
+    z-index: 10;
+    background-color: transparent;
+}
+
+.btn-topo.show {
+    display: block;
+}
+
+.copy {
+    color: white;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
