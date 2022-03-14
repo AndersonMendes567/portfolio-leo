@@ -44,6 +44,10 @@ body #portfolio .container {
     font-size: 30px;
 }
 
+.col-xl-6 {
+    height: min-content; /* ajuste no alinhamento das colunas */
+}
+
 #contact form textarea {
     height: 150px;
     max-height: 400px;
